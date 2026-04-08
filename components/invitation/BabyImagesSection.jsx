@@ -8,11 +8,12 @@ const images = [
         span: 'col-span-1',
     },
     {
-        url: 'https://media.base44.com/images/public/69d5afebefa7e4676c27d601/0a343555c_generated_image.png',
+        url: 'https://cdn.phototourl.com/free/2026-04-08-b08f4bdd-72ff-45be-be38-2ed1779d0662.jpg',
         alt: 'Baby boy nursery items flat lay',
         caption: 'Little Essentials',
         span: 'col-span-1',
     },
+
     {
         url: 'https://cdn.phototourl.com/free/2026-04-08-2b2ff8fa-1b64-4e64-8c27-eedf4a3809b5.jpg',
         alt: 'Stork carrying baby boy',
@@ -20,13 +21,14 @@ const images = [
         span: 'col-span-1',
     },
     {
-        url: 'https://media.base44.com/images/public/69d5afebefa7e4676c27d601/6d85c00c7_generated_image.png',
+        url: 'https://cdn.phototourl.com/free/2026-04-08-0d336994-a57a-4ce9-a850-470de1dc726e.png',
         alt: 'Baby boy milestone items',
         caption: 'Toys and Accessories',
         span: 'col-span-1',
     },
+
     {
-        url: 'https://cdn.phototourl.com/free/2026-04-08-cd5fcb7f-ee36-44ca-bdf5-445c8a66bc8a.jpg',
+        url: 'https://cdn.phototourl.com/free/2026-04-08-7a9da151-9313-46dc-8c83-cb10c527d771.jpg',
         alt: 'Baby boy milestone items',
         caption: 'First Steps',
         span: 'col-span-2',
