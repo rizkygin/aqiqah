@@ -48,12 +48,12 @@ export default function HeroSection() {
             </motion.p>
 
             <motion.h1
-                className="text-4xl md:text-6xl lg:text-7xl text-foreground mt-6 text-center leading-tight"
+                className="text-4xl md:text-3xl lg:text-5xl text-foreground mt-6 text-center leading-tight"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
             >
-                Acara Aqiqah
+                Tasyakuran Aqiqah dan Tasmiyah
             </motion.h1>
 
             <motion.div
@@ -62,10 +62,16 @@ export default function HeroSection() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8, duration: 0.8 }}
             >
-                <div className="h-px w-16 bg-primary/40" />
-                <p className="font-script text-3xl md:text-4xl text-primary">
-                    Kaysan Ahsan Kurniawan
-                </p>
+                <div className="h-px w-16 bg-primary/40 flex-1" />
+                <div className="flex flex-col items-center justify-center gap-2">
+                    <p className="font-body text-2xl md:text-3xl text-gray-600 text-center">
+                        Putra Pertama Kami
+                    </p>
+                    <p className="font-script text-4xl md:text-5xl text-primary text-center">
+                        Kaysan Ahsan Kurniawan
+                    </p>
+                </div>
+
                 <div className="h-px w-16 bg-primary/40" />
             </motion.div>
 

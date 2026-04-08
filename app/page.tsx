@@ -6,6 +6,7 @@ import InvitationCover from '../components/invitation/InvitationCover';
 import BabyDetailsSection from '../components/invitation/BabyDetailsSection';
 import BabyGallerySection from '../components/invitation/BabyGallerySection';
 import EventDetailsSection from '../components/invitation/EventDetailsSection';
+import SunnahNabiSection from '../components/invitation/SunnahNabiSection';
 import FooterSection from '../components/invitation/FooterSection';
 import BabyImagesSection from '../components/invitation/BabyImagesSection';
 
@@ -32,6 +33,7 @@ export default function Home() {
         <HeroSection />
         <BabyDetailsSection />
         <BabyGallerySection />
+        <SunnahNabiSection />
         <BabyImagesSection />
         <EventDetailsSection />
         <FooterSection />

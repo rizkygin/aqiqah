@@ -79,10 +79,10 @@ export default function InvitationCover({ onOpen }) {
                                 </div>
 
                                 <p className="font-body text-xs text-muted-foreground uppercase tracking-widest mb-2">
-                                    Undangan untuk {name}
+                                    {name ? `Undangan untuk ${name}` : 'Kami mengundang'}
                                 </p>
                                 <h1 className="font-heading text-2xl text-foreground font-semibold leading-tight mb-1">
-                                    Acara Aqiqah Putra Kami
+                                    Acara Aqiqah & Tasmiyah Putra Kami
                                 </h1>
                                 <p className="font-script text-3xl text-sky-500 mb-3">
                                     Kaysan Ahsan Kurniawan

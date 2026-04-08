@@ -24,7 +24,7 @@ export default function BabyDetailsSection() {
                     viewport={{ once: true, margin: '-50px' }}
                     variants={fadeInUp}
                 >
-                    <p className="font-script text-2xl text-primary mb-2">A New Blessing</p>
+                    <p className="font-script text-2xl text-primary mb-2">Our Little Prince</p>
                     <h2 className="font-heading text-3xl md:text-4xl text-foreground">
                         Baby Boy Details
                     </h2>
@@ -40,7 +40,7 @@ export default function BabyDetailsSection() {
                     custom={1}
                 >
                     <img
-                        src="https://media.base44.com/images/public/69d5afebefa7e4676c27d601/10301c06f_generated_d337713f.png"
+                        src="https://cdn.phototourl.com/free/2026-04-08-972462da-b045-4486-b44e-7ef111ce68a8.png"
                         alt="Baby boy items - shoes, clothes, teddy bear"
                         className="w-full max-w-lg rounded-2xl shadow-xl"
                     />
@@ -60,13 +60,13 @@ export default function BabyDetailsSection() {
                             <Calendar className="w-6 h-6 text-primary" />
                         </div>
                         <p className="font-body text-sm text-muted-foreground uppercase tracking-widest mb-2">
-                            Born Date
+                            Tanggal Lahir
                         </p>
                         <p className="font-heading text-2xl text-foreground">
-                            March 15, 2026
+                            30 Maret 2026
                         </p>
                         <p className="font-body text-sm text-muted-foreground mt-1">
-                            21 Ramadan 1447 H
+                            10 Shawwal 1447 H
                         </p>
                     </motion.div>
 
@@ -82,10 +82,10 @@ export default function BabyDetailsSection() {
                             <Clock className="w-6 h-6 text-primary" />
                         </div>
                         <p className="font-body text-sm text-muted-foreground uppercase tracking-widest mb-2">
-                            Born Time
+                            Jam Lahir
                         </p>
                         <p className="font-heading text-2xl text-foreground">
-                            08:30 AM
+                            05:04 WIB
                         </p>
                         <p className="font-body text-sm text-muted-foreground mt-1">
                             Alhamdulillah

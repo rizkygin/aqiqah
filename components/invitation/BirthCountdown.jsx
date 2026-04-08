@@ -42,17 +42,21 @@ export default function BirthCountdown({ birthDate }) {
     return (
         <div className="text-center">
             <p className="font-script text-xl text-primary mb-6">
-                Baby's Age Since Birth
+                Umur Kaysan Sekarang
             </p>
             <div className="flex justify-center gap-3 md:gap-6">
-                <CounterBox value={time.days} label="Days" />
+                <CounterBox value={time.days} label="Hari" />
                 <div className="flex items-center text-2xl text-primary/40 font-heading mt-[-20px]">:</div>
-                <CounterBox value={time.hours} label="Hours" />
+                <CounterBox value={time.hours} label="Jam" />
                 <div className="flex items-center text-2xl text-primary/40 font-heading mt-[-20px]">:</div>
-                <CounterBox value={time.minutes} label="Minutes" />
+                <CounterBox value={time.minutes} label="Menit" />
                 <div className="flex items-center text-2xl text-primary/40 font-heading mt-[-20px]">:</div>
-                <CounterBox value={time.seconds} label="Seconds" />
+                <CounterBox value={time.seconds} label="Detik" />
             </div>
+            <p className="font-script text-4xl text-primary mt-6">
+                Masya Allah Tabarakallah
+            </p>
+
         </div>
     );
 }

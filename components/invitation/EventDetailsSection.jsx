@@ -13,8 +13,8 @@ const fadeInUp = {
 
 export default function EventDetailsSection() {
     const eventDetails = {
-        date: 'Saturday, April 11, 2026',
-        hijriDate: '22 Shawwal 1447 H',
+        date: 'Sabtu, 18 April 2026',
+        hijriDate: '29 Shawwal 1447 H',
         time: '11:00 AM - 02:00 PM',
         venue: 'Rumah Keluarga',
         address: 'Jl. Bhayangkara Pasir Panjang, Gg Palem 1',
@@ -32,9 +32,9 @@ export default function EventDetailsSection() {
                     viewport={{ once: true, margin: '-50px' }}
                     variants={fadeInUp}
                 >
-                    <p className="font-script text-2xl text-primary mb-2">You Are Invited</p>
+                    <p className="font-script text-2xl text-primary mb-2">Insya Allah </p>
                     <h2 className="font-heading text-3xl md:text-4xl text-foreground">
-                        Event Details
+                        Akan Dilaksanakan Pada :
                     </h2>
                     <p className="font-body text-muted-foreground mt-3 max-w-md mx-auto text-sm">
                         We would be honored by your presence at the Aqiqah celebration of our beloved son
@@ -57,7 +57,7 @@ export default function EventDetailsSection() {
                             </div>
                             <div>
                                 <p className="font-body text-xs text-muted-foreground uppercase tracking-widest mb-1">
-                                    Date
+                                    Tanggal
                                 </p>
                                 <p className="font-heading text-lg text-foreground">
                                     {eventDetails.date}
@@ -74,13 +74,13 @@ export default function EventDetailsSection() {
                             </div>
                             <div>
                                 <p className="font-body text-xs text-muted-foreground uppercase tracking-widest mb-1">
-                                    Time
+                                    Waktu dan Jam
                                 </p>
                                 <p className="font-heading text-lg text-foreground">
                                     {eventDetails.time}
                                 </p>
                                 <p className="font-body text-sm text-muted-foreground">
-                                    Please be on time
+                                    Mohon datang tepat waktu yaaa
                                 </p>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ export default function EventDetailsSection() {
                             </div>
                             <div>
                                 <p className="font-body text-xs text-muted-foreground uppercase tracking-widest mb-1">
-                                    Location
+                                    Lokasi
                                 </p>
                                 <p className="font-heading text-lg text-foreground">
                                     {eventDetails.venue}
