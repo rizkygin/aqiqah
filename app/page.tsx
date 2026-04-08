@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, Suspense } from 'react';
 import HeroSection from '../components/invitation/HeroSection';
 import InvitationCover from '../components/invitation/InvitationCover';
 import BabyDetailsSection from '../components/invitation/BabyDetailsSection';
@@ -23,7 +23,11 @@ export default function Home() {
 
   return (
     <>
-      {!opened && <InvitationCover onOpen={() => setOpened(true)} />}
+      {!opened && (
+        <Suspense fallback={null}>
+          <InvitationCover onOpen={() => setOpened(true)} />
+        </Suspense>
+      )}
       <div ref={containerRef} className="min-h-screen bg-background font-body overflow-x-hidden">
         <HeroSection />
         <BabyDetailsSection />
