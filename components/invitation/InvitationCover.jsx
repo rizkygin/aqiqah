@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star } from 'lucide-react';
+import { useSearchParams } from 'next/navigation';
 
 export default function InvitationCover({ onOpen }) {
     const [isOpening, setIsOpening] = useState(false);
 
+    const name = useSearchParams().get('mengundang');
     const handleOpen = () => {
         setIsOpening(true);
         setTimeout(() => {
@@ -77,10 +79,10 @@ export default function InvitationCover({ onOpen }) {
                                 </div>
 
                                 <p className="font-body text-xs text-muted-foreground uppercase tracking-widest mb-2">
-                                    Undangan untuk Mr. X
+                                    Undangan untuk {name}
                                 </p>
                                 <h1 className="font-heading text-2xl text-foreground font-semibold leading-tight mb-1">
-                                    Undangan Aqiqah Putra Kami
+                                    Acara Aqiqah Putra Kami
                                 </h1>
                                 <p className="font-script text-3xl text-sky-500 mb-3">
                                     Kaysan Ahsan Kurniawan
