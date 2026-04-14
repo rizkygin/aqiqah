@@ -15,7 +15,7 @@ export default function EventDetailsSection() {
     const eventDetails = {
         date: 'Sabtu, 18 April 2026',
         hijriDate: '29 Shawwal 1447 H',
-        time: '11:00 AM - 02:00 PM',
+        time: '11:00 - 15:00 WIB',
         venue: 'Rumah Keluarga',
         address: 'Jl. Bhayangkara Pasir Panjang, Gg Palem 1',
         city: 'Pangkalan Bun, 74112',
