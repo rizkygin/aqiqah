@@ -57,12 +57,12 @@ export default function HeroSection() {
             </motion.h1>
 
             <motion.div
-                className="mt-4 flex items-center gap-4"
+                className="mt-4 flex items-center gap-4 justify-center"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8, duration: 0.8 }}
             >
-                <div className="h-px w-16 bg-primary/40 flex-1" />
+                <div className="h-px w-16 bg-primary/40" />
                 <div className="flex flex-col items-center justify-center gap-2">
                     <p className="font-body text-2xl md:text-3xl text-gray-600 text-center">
                         Putra Pertama Kami
