@@ -22,7 +22,7 @@ export default function FooterSection() {
 
                 <p className="font-script text-xl text-primary mb-2">With Love</p>
                 <p className="font-heading text-lg text-foreground">
-                    Kaysan Parents
+                    Yang Berbahagia Rizky Kurniawan dan Putri Pinandita
                 </p>
 
                 <div className="flex items-center justify-center gap-2 mt-8 text-muted-foreground">
